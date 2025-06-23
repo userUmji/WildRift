@@ -1,12 +1,12 @@
 /* header */
-fetch('/webRedesign-WildRift/include/header.html')
+fetch('/WildRift/include/header.html')
   .then(response => response.text())
   .then(data => {
     document.querySelector('.header-include').innerHTML = data;
   })
 
 /* footer */
-fetch('/webRedesign-WildRift/include/footer.html')
+fetch('/WildRift/include/footer.html')
   .then(response => response.text())
   .then(data => {
     document.querySelector('.footer-include').innerHTML = data;
@@ -32,11 +32,11 @@ champions = [
   Riven = {
     name: "리븐",
     skinImg: [
-      "../images/skinShop/Riven-normal.jpg",
-      "../images/skinShop/Riven-bringer-of-light.png",
-      "../images/skinShop/Riven-pulse-gun.png",
-      "../images/skinShop/Riven-crystal-rose.png",
-      "../images/skinShop/Riven-spirit-flower.png",
+      "../images/skin-shop/Riven-normal.jpg",
+      "../images/skin-shop/Riven-bringer-of-light.png",
+      "../images/skin-shop/Riven-pulse-gun.png",
+      "../images/skin-shop/Riven-crystal-rose.png",
+      "../images/skin-shop/Riven-spirit-flower.png",
     ],
     skinName: [
       "추방자",
@@ -64,11 +64,11 @@ champions = [
   Lux = {
     name: "럭스",
     skinImg: [
-      "../images/skinShop/Lux-normal.webp",
-      "../images/skinShop/Lux-crystal-rose.jpg",
-      "../images/skinShop/Lux-combat-academy.webp",
-      "../images/skinShop/Lux-universe.webp",
-      "../images/skinShop/Lux-in-love.webp",
+      "../images/skin-shop/Lux-normal.webp",
+      "../images/skin-shop/Lux-crystal-rose.jpg",
+      "../images/skin-shop/Lux-combat-academy.webp",
+      "../images/skin-shop/Lux-universe.webp",
+      "../images/skin-shop/Lux-in-love.webp",
     ],
     skinName: [
       "광명의 소녀",
@@ -96,11 +96,11 @@ champions = [
   Sett = {
     name: "세트",
     skinImg: [
-      "../images/skinShop/Set-normal.webp",
-      "../images/skinShop/Set-fireworks.png",
-      "../images/skinShop/Set-supreme-cell.png",
-      "../images/skinShop/Set-obsidian-dragon.png",
-      "../images/skinShop/Set-spirit-flower.png",
+      "../images/skin-shop/Set-normal.webp",
+      "../images/skin-shop/Set-fireworks.png",
+      "../images/skin-shop/Set-supreme-cell.png",
+      "../images/skin-shop/Set-obsidian-dragon.png",
+      "../images/skin-shop/Set-spirit-flower.png",
     ],
     skinName: [
       "우두머리",
@@ -128,11 +128,11 @@ champions = [
   Ash = {
     name: "애쉬",
     skinImg: [
-      "../images/skinShop/Ash-normal.webp",
-      "../images/skinShop/Ash-project.png",
-      "../images/skinShop/Ash-high-eye.jpg",
-      "../images/skinShop/Ash-spirit-dragon.jpg",
-      "../images/skinShop/Ash-crystal-rose.jpg",
+      "../images/skin-shop/Ash-normal.webp",
+      "../images/skin-shop/Ash-project.png",
+      "../images/skin-shop/Ash-high-eye.jpg",
+      "../images/skin-shop/Ash-spirit-dragon.jpg",
+      "../images/skin-shop/Ash-crystal-rose.jpg",
     ],
     skinName: [
       "서리 궁수",
@@ -160,11 +160,11 @@ champions = [
   Blitzcrank = {
     name: "블리츠크랭크",
     skinImg: [
-      "../images/skinShop/Blitzcrank-normal.webp",
-      "../images/skinShop/Blitzcrank-i.png",
-      "../images/skinShop/Blitzcrank-nuclear-punch.png",
-      "../images/skinShop/Blitzcrank-happy-and-happy.png",
-      "../images/skinShop/Blitzcrank-space-groove.png",
+      "../images/skin-shop/Blitzcrank-normal.webp",
+      "../images/skin-shop/Blitzcrank-i.png",
+      "../images/skin-shop/Blitzcrank-nuclear-punch.png",
+      "../images/skin-shop/Blitzcrank-happy-and-happy.png",
+      "../images/skin-shop/Blitzcrank-space-groove.png",
     ],
     skinName: [
       "거대 증기 골렘",
@@ -192,11 +192,11 @@ champions = [
   Caitlin = {
     name: "케이틀린",
     skinImg: [
-      "../images/skinShop/Caitlin-normal.jpg",
-      "../images/skinShop/Caitlin-pulse-gun.jpg",
-      "../images/skinShop/Caitlin-pool-party.jpg",
-      "../images/skinShop/Caitlin-arcade.jpg",
-      "../images/skinShop/Caitlin-combat-academy.png",
+      "../images/skin-shop/Caitlin-normal.jpg",
+      "../images/skin-shop/Caitlin-pulse-gun.jpg",
+      "../images/skin-shop/Caitlin-pool-party.jpg",
+      "../images/skin-shop/Caitlin-arcade.jpg",
+      "../images/skin-shop/Caitlin-combat-academy.png",
     ],
     skinName: [
       "필트오버의 보안관",
@@ -224,11 +224,11 @@ champions = [
   Jarvan = {
     name: "자르반 4세",
     skinImg: [
-      "../images/skinShop/Jarvan-normal.webp",
-      "../images/skinShop/Jarvan-dark-star.png",
-      "../images/skinShop/Jarvan-crystal-rose.png",
-      "../images/skinShop/Jarvan-new-year-beast.png",
-      "../images/skinShop/Jarvan-famous-writer.png",
+      "../images/skin-shop/Jarvan-normal.webp",
+      "../images/skin-shop/Jarvan-dark-star.png",
+      "../images/skin-shop/Jarvan-crystal-rose.png",
+      "../images/skin-shop/Jarvan-new-year-beast.png",
+      "../images/skin-shop/Jarvan-famous-writer.png",
     ],
     skinName: [
       "데마시아의 귀감",
@@ -256,11 +256,11 @@ champions = [
   Lulu = {
     name: "룰루",
     skinImg: [
-      "../images/skinShop/Lulu-normal.webp",
-      "../images/skinShop/Lulu-pool-party.png",
-      "../images/skinShop/Lulu-dragon-trainer.png",
-      "../images/skinShop/Lulu-star-guardian.png",
-      "../images/skinShop/Lulu-winter-fairy-tale.png",
+      "../images/skin-shop/Lulu-normal.webp",
+      "../images/skin-shop/Lulu-pool-party.png",
+      "../images/skin-shop/Lulu-dragon-trainer.png",
+      "../images/skin-shop/Lulu-star-guardian.png",
+      "../images/skin-shop/Lulu-winter-fairy-tale.png",
     ],
     skinName: [
       "요정 마법사",
@@ -288,9 +288,9 @@ champions = [
   Rammus = {
     name: "람머스",
     skinImg: [
-      "../images/skinShop/Rammus-normal.jpg",
-      "../images/skinShop/Rammus-lava.png",
-      "../images/skinShop/Rammus-libero.png",
+      "../images/skin-shop/Rammus-normal.jpg",
+      "../images/skin-shop/Rammus-lava.png",
+      "../images/skin-shop/Rammus-libero.png",
     ],
     skinName: [
       "중무장 아르마딜로",
@@ -312,11 +312,11 @@ champions = [
   Sona = {
     name: "소나",
     skinImg: [
-      "../images/skinShop/Sona-normal.webp",
-      "../images/skinShop/Sona-arcade.png",
-      "../images/skinShop/Sona-crystal-rose.png",
-      "../images/skinShop/Sona-goddess-of-music.png",
-      "../images/skinShop/Sona-seven-stringed-zither.png",
+      "../images/skin-shop/Sona-normal.webp",
+      "../images/skin-shop/Sona-arcade.png",
+      "../images/skin-shop/Sona-crystal-rose.png",
+      "../images/skin-shop/Sona-goddess-of-music.png",
+      "../images/skin-shop/Sona-seven-stringed-zither.png",
     ],
     skinName: [
       "현의 명인",
@@ -344,11 +344,11 @@ champions = [
   Veiga = {
     name: "베이가",
     skinImg: [
-      "../images/skinShop/Veiga-normal.jpg",
-      "../images/skinShop/Veiga-the-end-king.png",
-      "../images/skinShop/Veiga-super-villain.png",
-      "../images/skinShop/Veiga-bad-santa.png",
-      "../images/skinShop/Veiga-food-spirit.png",
+      "../images/skin-shop/Veiga-normal.jpg",
+      "../images/skin-shop/Veiga-the-end-king.png",
+      "../images/skin-shop/Veiga-super-villain.png",
+      "../images/skin-shop/Veiga-bad-santa.png",
+      "../images/skin-shop/Veiga-food-spirit.png",
     ],
     skinName: [
       "악의 작은 지배자",
@@ -376,10 +376,10 @@ champions = [
   Syndra = {
     name: "신드라",
     skinImg: [
-      "../images/skinShop/Syndra-normal.webp",
-      "../images/skinShop/Syndra-soul-flower.png",
-      "../images/skinShop/Syndra-prestige-star-guardian.png",
-      "../images/skinShop/Syndra-star-guardian.png",
+      "../images/skin-shop/Syndra-normal.webp",
+      "../images/skin-shop/Syndra-soul-flower.png",
+      "../images/skin-shop/Syndra-prestige-star-guardian.png",
+      "../images/skin-shop/Syndra-star-guardian.png",
     ],
     skinName: [
       "어둠의 여제",
@@ -404,11 +404,11 @@ champions = [
   Ari = {
     name: "아리",
     skinImg: [
-      "../images/skinShop/Ari-normal.png",
-      "../images/skinShop/Ari-arcade.png",
-      "../images/skinShop/Ari-soul-flower.png",
-      "../images/skinShop/Ari-soda-pop.png",
-      "../images/skinShop/Ari-landscape-painting.png",
+      "../images/skin-shop/Ari-normal.png",
+      "../images/skin-shop/Ari-arcade.png",
+      "../images/skin-shop/Ari-soul-flower.png",
+      "../images/skin-shop/Ari-soda-pop.png",
+      "../images/skin-shop/Ari-landscape-painting.png",
     ],
     skinName: [
       "구미호",
