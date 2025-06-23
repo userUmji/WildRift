@@ -1,12 +1,12 @@
 /* header */
-fetch('/webRedesign-WildRift/include/header.html')
+fetch('/WildRift/include/header.html')
   .then(response => response.text())
   .then(data => {
     document.querySelector('.header-include').innerHTML = data;
   })
 
 /* footer */
-fetch('/webRedesign-WildRift/include/footer.html')
+fetch('/WildRift/include/footer.html')
   .then(response => response.text())
   .then(data => {
     document.querySelector('.footer-include').innerHTML = data;
